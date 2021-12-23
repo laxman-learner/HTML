@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form attributes</title>
+  </head>
+  <body>
+    <form>
+      <span>Name:</span> <br />
+      <input
+        type="text"
+        name="user-name"
+        placeholder="Enter name"
+        value="Laxman"
+        readonly
+      />
+      <!--readonly attribute-->
+      <br />
+      <br />
+      <input
+        type="text"
+        name="user-name"
+        placeholder="Enter name"
+        value="Laxman"
+        size="10"
+      />
+      <br />
+      <!--maxlength form attributes-->
+      <br />
+      <input
+        type="text"
+        name="user-name"
+        placeholder="Enter name"
+        size="10"
+        maxlength="5"
+        required
+      />
+      <br />
+      <span>Subjects:</span> <br />
+      <!---Checkbox Section-->
+      <input
+        type="checkbox"
+        id="English"
+        name="selected subject 1"
+        value="English"
+      />
+      <label for="English">English</label> <br />
+      <input
+        type="checkbox"
+        id="Mathematics"
+        name="selected subject 2"
+        value="Mathematics"
+      />
+      <label for="Mathematics">Mathematics</label> <br />
+      <input
+        type="checkbox"
+        id="Science"
+        name="selected subject 3"
+        value="Science"
+      />
+      <label for="Science">Science</label> <br />
+      <input
+        type="checkbox"
+        id="Nepali"
+        name="selected subject 4"
+        value="Nepali"
+      />
+      <label for="Nepali">Nepali</label> <br />
+      <input
+        type="checkbox"
+        id="Social"
+        name="selected subject 5"
+        value="Social"
+      />
+      <label for="Social">Social</label> <br />
+      <input
+        type="checkbox"
+        id="Health and Population"
+        name="selected
+      subject 6"
+        value="Health and Population"
+      />
+      <label for="Health and Population">Health and Population</label> <br />
+      <input
+        type="checkbox"
+        id="General Knowledge"
+        name="selected subject 7"
+        value="General Knowledge"
+      />
+      <label for="General Knowledge">General Knowledge</label> <br />
+      <br />
+      <!--Select i.e. drop down Section-->
+      <label for="Country">Select your country:</label> <br />
+      <!--multiple attribute-->
+      <select name="Country" id="country" multiple>
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Australia">Australia</option>
+        <option value="Japan">Japan</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" />
+      <br />
+      <br />
+      <input type="submit" value="Send" disabled />
+      <!--disabled attribute-->
+    </form>
+  </body>
+</html>
