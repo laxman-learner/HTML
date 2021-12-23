@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Examples</title>
+  </head>
+  <body>
+    <form>
+      <!--Fieldset Section-->
+      <fieldset>
+        <legend>Compulsory:</legend>
+        <span>Name:</span> <br />
+        <input type="text" name="first name" placeholder="first Name" />
+        <br />
+        <br />
+        <input type="text" name="nast name" placeholder="last name" />
+        <br />
+        <br />
+        <span>Gender:</span>
+        <input type="checkbox" id="male" name="gender" value="male" />
+        <label for="male">male</label>
+        <input type="checkbox" id="female" name="gender" value="female" />
+        <label for="female">female</label>
+        <input type="checkbox" id="other" name="gender" value="other" />
+        <label for="other">other</label>
+      </fieldset>
+      <fieldset>
+        <legend>Optional:</legend>
+        <span>Subjects:</span> <br />
+        <!---Checkbox Section-->
+        <input
+          type="checkbox"
+          id="english"
+          name="selected subject 1"
+          value="english"
+        />
+        <label for="english">english</label> <br />
+        <input
+          type="checkbox"
+          id="mathematics"
+          name="selected subject 2"
+          value="mathematics"
+        />
+        <label for="mathematics">mathematics</label> <br />
+        <input
+          type="checkbox"
+          id="science"
+          name="selected subject 3"
+          value="science"
+        />
+        <label for="science">science</label> <br />
+        <input
+          type="checkbox"
+          id="nepali"
+          name="selected subject 4"
+          value="nepali"
+        />
+        <label for="nepali">nepali</label> <br />
+        <input
+          type="checkbox"
+          id="social"
+          name="selected subject 5"
+          value="social"
+        />
+        <label for="social">social</label> <br />
+        <input
+          type="checkbox"
+          id="health and population"
+          name="selected
+      subject 6"
+          value="health and population"
+        />
+        <label for="health and population">health and population</label> <br />
+        <input
+          type="checkbox"
+          id="general knowledge"
+          name="selected subject 7"
+          value="general knowledge"
+        />
+        <label for="general knowledge">general knowledge</label> <br />
+        <br />
+        <!--Select i.e. drop down Section-->
+        <label for="Country">Select your country:</label> <br />
+        <select name="Country" id="country">
+          <option value="nepal">Nepal</option>
+          <option value="india">India</option>
+          <option value="china">China</option>
+          <option value="australia">Australia</option>
+          <option value="japan">Japan</option>
+        </select>
+      </fieldset>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
